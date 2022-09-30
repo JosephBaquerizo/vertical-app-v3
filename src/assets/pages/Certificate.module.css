@@ -1,0 +1,67 @@
+.certificateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+    padding-top: 7vh;
+    padding-bottom: 30px;
+    background-color: transparent;
+}
+
+.certificateContainer h1 {
+    color: white;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.buttonsContainer button:hover {
+    cursor: pointer;
+}
+
+.option {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+}
+
+@media screen and (max-width: 480px) {
+
+    .certificateContainer h1 {
+        font-size: 22px;
+    }
+
+    .buttonsContainer {
+        width: 230px;
+    }
+
+    .buttonsContainer button {
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.alert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 8vh;
+    left: calc(50% - 200px);
+    height: 200px;
+    width: 400px;
+    opacity: 1;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(189, 183, 152);
+    animation: fadeIn 0.5s;
+    z-index: 99;
+}
+
+.message {
+    height: 100px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alert button {
+    color: white;
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(133, 133, 48);
+}
+
+.alert button:hover {
+    cursor: pointer;
+    background-color: rgb(160, 160, 80);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

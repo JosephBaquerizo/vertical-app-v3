@@ -1,0 +1,55 @@
+.table1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.table1 td {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+}
+
+.imagen img {
+    object-fit: contain;
+    width: 300px;
+    height: 300px;
+}
+
+.table1 .image {
+    width: 20%;
+}
+
+.table1 .parameter {
+    font-weight: bold;
+    width: 20%;
+}
+
+.table1 .value {
+    width: 20%;
+}
+
+.table1 table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.whitespace {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,196 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formContainer {
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.main label {
+    margin-bottom: 3px;
+}
+
+.formPair {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formTriple {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.tripleItem {
+    width: 30%;
+}
+
+.doubleItem {
+    width: 48%;
+}
+
+.dimensiones {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 15px 5px;
+}
+
+.subtitleContainer {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.textarea {
+    resize: none;
+}
+
+.submitButton {
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(32, 32, 214);
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 221);
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px 5px;
+}
+
+.imageContainerTitle {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.imageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px dashed grey;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.imageSection span {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+}
+
+.submitButton {
+    width: 100%;
+}
+
+.label {
+    display: none;
+}
+
+@media screen and (max-width: 590px) {
+
+    .title {
+        font-size: 18px;
+    }
+    
+    .formContainer {
+        width: 250px;
+    }
+
+    .formTriple {
+        flex-direction: column;
+    }
+
+    .tripleItem {
+        width: 100%;
+    }
+
+    .formBlock {
+        margin-top: 10px;
+    }
+
+    .formBlock label {
+        font-size: 14px;
+    }
+
+    .formPair {
+        flex-direction: column;
+    }
+
+    .formPair .formBlock {
+        width: 100%;
+    }
+
+    .defaultFrontalBtn {
+        display: none;
+    }
+
+    .label {
+        display: block;
+    }
+
+    .label:hover {
+        cursor: pointer;
+        color: grey;
+    }
+
+}

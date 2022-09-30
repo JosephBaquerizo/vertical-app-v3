@@ -1,0 +1,33 @@
+.extraPics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.extraPics div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.extraPics .right {
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+}
+
+.imagen {
+    width: 120px;
+    height: 170px;
+}
+
+.imagen img {
+    width: 120px;
+    height: 170px;
+    object-fit: contain;
+}

@@ -1,0 +1,45 @@
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper .block {
+    display: flex;
+    align-items: center;
+}
+
+.upper .parameterContainer {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.upper .parameter {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.upper .value {
+    font-size: 10px;
+}
+
+.upper .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.upper .title {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.upper .subtitle {
+    font-size: 9px;
+    text-align: right;
+}
+
+.whitespace {
+    color: white;
+}

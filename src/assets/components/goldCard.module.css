@@ -1,0 +1,46 @@
+.goldCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 220px;
+    border-radius: 10px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.goldCard span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(216, 212, 132);
+    text-shadow: 1px 0 0 #1d1d1c, -1px 0 0 #1d1d1c, 0 -2px 0 #1d1d1c;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.isSelected {
+    box-shadow: 0 0 7px 5px #FFD124;
+}
+
+@media screen and (max-width: 360px) {
+    .goldCard {
+        height: 270px;
+        width: 180px;
+    }
+
+    .goldCard span {
+        font-size: 12px;
+    }
+}

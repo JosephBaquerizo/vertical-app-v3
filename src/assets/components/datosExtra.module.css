@@ -1,0 +1,68 @@
+
+.datosExtra {
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.datosExtra table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.datosExtra td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 10px;
+}
+
+.datosExtra .firstColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 12%;
+}
+
+.datosExtra .secondColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 13%;
+}
+
+.datosExtra .thirdColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 15%;
+}
+
+.datosExtra .fourthColumn {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 35%;
+}
+
+.datosExtra .qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.whitespace {
+    color: white;
+}
+
+.qrImage {
+    width: 150px;
+    height: 150px;
+}
+
+.qrImage img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}

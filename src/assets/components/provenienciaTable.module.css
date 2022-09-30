@@ -1,0 +1,48 @@
+.provenienciaTable {
+    margin-top: 30px;
+}
+
+.provenienciaTable table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.provenienciaTable td {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.disclaimer {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.greytd {
+    padding-left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: rgb(209, 209, 209);
+}
+
+.provenienciaTable table {
+    width: 100%;
+}
+
+.provenienciaTable td {
+    padding-left: 3px;
+    font-size: 10px;
+    width: 25%;
+}
+
+.greyspace {
+    color:rgb(209, 209, 209);
+}

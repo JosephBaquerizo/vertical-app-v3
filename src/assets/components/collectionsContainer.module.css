@@ -1,0 +1,46 @@
+.collectionsContainer {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    max-width: 90%;
+}
+
+.scrollIcon {
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+
+.horizontalScroll {
+    display: flex;
+    flex-direction: row;
+    min-width: 220px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.horizontalScroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #4A403A;
+	border-radius: 10px;
+	background-color: #383838;
+}
+
+.horizontalScroll::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #383838;
+    border-radius: 10px;
+}
+
+.horizontalScroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px #4A403A;
+	background-color: #DFDFDE;
+}

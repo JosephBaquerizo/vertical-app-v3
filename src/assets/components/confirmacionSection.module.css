@@ -1,0 +1,112 @@
+.confirmacion {
+    line-height: 10px;
+}
+
+.confirmacion span {
+    font-size: 9px;
+}
+
+.firmaSection {
+    display: flex;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.firmaSection .left {
+    width: 40%;
+}
+
+.firmaSection .left .upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.firmaSection .left .lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    height: 30%;
+}
+
+.firmaSection .left .lower span {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.firmaSection .center {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: black;
+    width: 20%;
+}
+
+.firmaSection .right {
+    text-align: justify;
+    width: 40%;
+    line-height: 10px;
+    padding: 5px 10px;
+}
+
+.firmaSection .right span:not(.whitespace) {
+    font-size: 8px;
+    color: grey;
+}
+
+.greyFont {
+    color: grey;
+}
+
+.firmaSection .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.firmaSection .center .underMedals {
+    font-size: 8px;
+}
+
+.firmaSection .center .title {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.firmaSection .center .subtitle {
+    font-size: 6px;
+}
+
+.whitespace {
+    color: white;
+}
+
+.logoImageContainer {
+    width: 50px;
+    height: 50px;
+}
+
+.logoImageContainer img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.signatureImageContainer {
+    width: 120px;
+    height: 50px;
+}
+
+.signatureImageContainer img {
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
+}

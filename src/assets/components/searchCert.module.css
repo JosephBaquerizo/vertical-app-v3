@@ -1,0 +1,157 @@
+.searchContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkContainer {
+    color: black;
+    text-decoration: none;
+}
+
+.hashItem {
+    padding: 10px;
+    background-color: white;
+}
+
+.loaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loaderContainer span {
+    color: white;
+}
+
+.collectionContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collectionItem {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+.collectionItem:hover {
+    cursor: pointer;
+    background-color: rgb(158, 158, 158);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+.image {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.parameter {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.loader {
+    margin-top: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite
+  }
+  .loader::before , .loader::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    animation: prixClipFix 2s linear infinite ;
+  }
+  .loader::after{
+    inset: 8px;
+    transform: rotate3d(90, 90, 0, 180deg );
+    border-color: #a19c9a;
+  }
+
+  @keyframes rotate {
+    0%   {transform: rotate(0deg)}
+    100%   {transform: rotate(360deg)}
+  }
+
+  @keyframes prixClipFix {
+      0%   {clip-path:polygon(50% 50%,0 0,0 0,0 0,0 0,0 0)}
+      50%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 0,100% 0,100% 0)}
+      75%, 100%  {clip-path:polygon(50% 50%,0 0,100% 0,100% 100%,100% 100%,100% 100%)}
+  }
+
+  .noItems {
+    color: white;
+    text-align: center;
+  }
+
+@media screen and (max-width: 1300px) {
+
+    .collectionContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .collectionContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .collectionItem {
+        width: 270px;
+        height: 120px;
+    }
+
+    .collectionItem span {
+        font-size: 10px;
+    }
+
+    .right {
+        height: 80px;
+        width: 80px;
+    }
+
+    .image {
+        height: 80px;
+        width: 80px;
+    }
+
+    
+
+}

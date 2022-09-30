@@ -1,0 +1,63 @@
+.artcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #d8d8d8 0%, #d0d0d0 8%, #938c7d 30%, #959085 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #ffffef 8%, #d6d0bf 25%, #535047 62.5%, #615d52 100%);
+    width: 220px;
+    height: 300px;
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.artcard span {
+    font-size: 14px;
+    color: rgb(193, 193, 184);
+    text-shadow: 1px 0 0 #1d1d1c, -1px 0 0 #1d1d1c, 0 -2px 0 #1d1d1c;
+}
+
+.artcard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.parameter {
+    font-weight: 700;
+}
+
+.artCardTitle {
+    font-weight: 700;
+    text-align: center;
+}
+
+.value {
+    font-weight: 500;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.linkContainer {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 590px) {
+
+    .artcard {
+        width: 180px;
+        height: 280px;
+    }
+
+}

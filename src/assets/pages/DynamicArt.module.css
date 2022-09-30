@@ -1,0 +1,231 @@
+.artContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+    padding-top: 7vh;
+    background-color: transparent;
+}
+
+.artContainer h1 {
+    color: white;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenuContainer {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: fit-content;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submenuContainer span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px 5px;
+}
+
+.imageContainerTitle {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.imageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px dashed grey;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.imageSection span {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+}
+
+.image img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.submitButton {
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(32, 32, 214);
+    margin-top: 20px;
+}
+
+.addGoldContainer button {
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(32, 32, 214);
+    margin-top: 20px;
+}
+
+.addGoldContainer button:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 221);
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 221);
+}
+
+.label {
+    display: none;
+}
+
+.nftImage {
+    position: relative;
+    width:200px;
+    height: 200px;
+}
+
+.general {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.userOptionsContainer {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+.extraDataContainer {
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.dataExtraImagesContainer {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    width: 250px;
+}
+
+.extraDataImage {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.extraDataImage img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.certsContainer {
+    overflow-y: scroll;
+}
+
+.docTag {
+    color: blue;
+    text-decoration: underline;
+}
+
+.addGoldContainer {
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1250px) {
+    .general {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .general {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    .anotherImage {
+        display: none;
+    }
+
+    .label {
+        display: block;
+        text-align: center;
+    }
+
+    .label:hover {
+        cursor: pointer;
+        color: grey;
+    }
+}

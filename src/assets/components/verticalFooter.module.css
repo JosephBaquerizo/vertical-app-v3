@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.copyright {
+    font-size: 10px;
+}
+
+.lowerContainer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lowerContainer span {
+    font-size: 8px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.whitespace {
+    color: white;
+}

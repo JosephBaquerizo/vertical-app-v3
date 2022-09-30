@@ -1,0 +1,40 @@
+.searchBarContainer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.searchBar {
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background: #383838;
+    border-width: 0;
+    color: #828d94;
+}
+
+.searchBar:focus {
+    outline: none !important;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    color: rgb(184, 182, 182);
+}
+
+@media screen and (max-width: 480px) {
+
+    .searchBar {
+        width: 250px;
+        font-size: 12px;
+    }
+
+}

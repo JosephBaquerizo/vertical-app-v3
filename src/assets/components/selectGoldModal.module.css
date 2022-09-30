@@ -1,0 +1,20 @@
+.modal {
+    padding: 20px;
+    position: fixed;
+    top: 30%;
+    left: calc(50% - 300px);
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+    z-index: 99;
+}
+
+.goldCollectionContainer {
+    overflow-y: scroll;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    border: 1px solid black;
+    padding: 5px;
+}

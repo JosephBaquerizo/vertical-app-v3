@@ -1,0 +1,51 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 7vh;
+}
+
+.profile h1 {
+    color: white;
+}
+
+.option {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+}
+
+.goldTokenContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 560px) {
+    .profile h1 {
+        font-size: 24px;
+    }
+}

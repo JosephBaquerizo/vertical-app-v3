@@ -1,0 +1,30 @@
+.mainUpper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mainUpper .title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mainUpper .bold {
+    font-weight: 700;
+}
+
+.mainUpper .description {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.whitespace {
+    color: white;
+}

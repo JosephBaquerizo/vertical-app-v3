@@ -1,0 +1,55 @@
+.artContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    min-height: 100vh;
+    padding-top: 7vh;
+    background-color: transparent;
+}
+
+.artContainer h1 {
+    color: white;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.buttonsContainer button:hover {
+    cursor: pointer;
+}
+
+.option {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption {
+    margin: 5px;
+    font-weight: 500;
+    width: 100px;
+    padding: 5px;
+    border-width: 0px;
+    background-color: rgb(167, 167, 167);
+}
+
+.selectedOption:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+}

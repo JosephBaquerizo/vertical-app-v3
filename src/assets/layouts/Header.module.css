@@ -1,0 +1,104 @@
+.headerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 100%;
+    z-index: 90;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.logo {
+    color: white;
+}
+
+.headerContainer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+}
+
+.linkContainer {
+    text-decoration: none;
+}
+
+.linkContainer span {
+    color: white;
+}
+
+.linkContainer span:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.iconNav {
+    display: none;
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.iconNav:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+@media screen and (max-width: 720px) {
+
+    .headerContainerNav {
+        width: 170px;
+        height: 93vh;
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        background-color: rgb(23, 23, 23);
+        transform: translateX(100%);
+        transition: 0s all ease-in-out;
+    }
+
+    .headerContainer ul {
+        width: 100px;
+        height: 90%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .headerContainerNavAppear {
+        width: 170px;
+        height: 93vh;
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        background-color: rgb(23, 23, 23);
+        transform: translateX(0%);
+        transition: 0.5s all ease-in-out;
+    }
+
+    .iconNav {
+        display: block;
+    }
+}

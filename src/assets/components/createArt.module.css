@@ -1,0 +1,128 @@
+.form {
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.formBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 20px 5px;
+}
+
+.imageContainerTitle {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.imageSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px dashed grey;
+    height: 150px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.imageSection span {
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.image {
+    height: 150px;
+    width: 200px;
+}
+
+.image img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imageContainerTitle {
+    position: absolute;
+    top: -12px;
+    left: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+}
+
+.submitButton {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(32, 32, 214);
+}
+
+.submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(70, 70, 221);
+}
+
+
+.label {
+    display: none;
+}
+
+@media screen and (max-width: 590px) {
+
+    .defaultFrontalBtn {
+        display: none;
+    }
+
+    .label {
+        display: block;
+        text-align: center;
+    }
+
+    .label:hover {
+        cursor: pointer;
+        color: grey;
+    }
+
+}

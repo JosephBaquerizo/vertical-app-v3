@@ -1,0 +1,14 @@
+.disclaimerGeneral {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.whitespace {
+    color: white;
+}
